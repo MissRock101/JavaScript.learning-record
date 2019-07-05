@@ -1,0 +1,18 @@
+<h1>Flag</h1>
+<img src="http://ife.baidu.com/2016/static/img/logo_c9785ff2.png">
+<p>尽早学完</p>
+<button id="btn">点按钮，打个招呼吧</button>
+
+h1 {
+  /* 设置了字的大小，px是单位，你可以尝试改成其它大小 */
+  font-size: 30px;
+}
+p{
+  /* 设置了字的颜色，你可以尝试改成yellow */
+  color: green;
+}
+
+document.getElementById("btn").onclick = function () {
+  // 点按钮后弹出一个文字，你可以尝试改变文字内容
+  alert("你好啊，立下的Flag记得完成哦");
+}
